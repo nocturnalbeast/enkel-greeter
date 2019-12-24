@@ -20,7 +20,7 @@
 <style>
   div {
     display: flex;
-    color: var(--c3);
+    color: var(--clock);
     font-family: monospace;
     position: absolute;
     top: 0;

@@ -29,10 +29,12 @@
 
 <style>
   :global(:root) {
-    --c1: #af66fe;
-    --c2: #63e2ff;
-    --c3: #04030f;
-    --c4: #515065;
+    --c1: #202020;
+    --c2: #343434;
+    --c3: #efefef;
+    --c4: #909090;
+    --hostname: #202020;
+    --clock: #181818;
     --shadow: 0 14px 28px rgba(4, 3, 15, 0.25),
       0 10px 10px rgba(4, 3, 15, 0.22);
     --shadow-h: 0 19px 38px rgba(4, 3, 15, 0.30),

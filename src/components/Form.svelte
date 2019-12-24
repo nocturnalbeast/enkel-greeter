@@ -88,7 +88,7 @@
     z-index: 100;
   }
   h1 {
-    color: white;
+    color: var(--hostname);
     letter-spacing: 2px;
     margin: 0 0 20px 0;
   }
@@ -129,7 +129,7 @@
   }
   .error-group {
     text-align: center;
-    color: #74F8F8;
+    color: #FF5656;
     font-style: italic;
     position: relative;
     overflow: hidden;
