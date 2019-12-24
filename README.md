@@ -1,24 +1,18 @@
-```
-
-                                                                    e n k e l
-
+# enkel-greeter
 
 A theme for lightdm-webkit2-greeter
-```
 
 ![preview](preview.png)
 
 ## Installation
 
-```
-1. download latest release in project's `download` folder
-2. copy uncompressed `enkel` folder to /usr/share/lightdm-webkit/themes/
-3. update `webkit_theme` option in /etc/lightdm/lightdm-webkit2-greeter to `enkel`
-```
+ 1. Download the latest release from the Releases tab.
+ 2. Extract the folder and copy to `/usr/share/lightdm-webkit/themes`
+ 3. In `/etc/lightdm/lightdm-webkit2-greeter.conf`, change the value of `webkit_theme` to `enkel`.
 
 ## Change background image
 
-location: `enkel/assets/background.jpg`
+Change the background image by replacing the file `background.jpg` in the folder `enkel/assets/` with your preferred image.
 
 ## Development
 
@@ -34,8 +28,6 @@ This software is distributed under MIT license:
 
 ```
 MIT License
-
-Copyright (c) 2019 Andre Aldana
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -57,4 +49,4 @@ SOFTWARE.
 ```
 
 ## Credits
-- Background photo by [Bora Burri](https://unsplash.com/@borapic)
+- Background photo by [Matt Hardy on Unsplash](https://unsplash.com/photos/55NI4yEAas4)
